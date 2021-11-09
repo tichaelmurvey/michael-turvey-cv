@@ -26,6 +26,10 @@ details p{
     content: "| "
 }
 
+.year{
+    font-weight: bold;
+}
+
 /* ==================================TYPOGRAPHY */
 
 body{
