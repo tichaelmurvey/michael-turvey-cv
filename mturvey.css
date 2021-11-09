@@ -31,6 +31,7 @@ details p{
 body{
     font-family: Tahoma, sans-serif;
     line-height: 1.5;
+    color: #262626;
 }
 
 nav{
@@ -54,15 +55,17 @@ nav a:hover{
 /* ===========================DETAILS AND SUMMARIES */
 summary{
     cursor: pointer;
+    list-style: none;
 }
 
 /* ========================= INTERACTIVE CV AND RESUME */
 .version{
     cursor: pointer;
+    color: #525252
 }
 
 .active{
-    text-decoration: underline;
+    color: black;
 }
 
 
