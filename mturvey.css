@@ -23,7 +23,7 @@ details p{
 }
 
 .year::before{
-    content: "| "
+    content: "| ";
 }
 
 .year{
