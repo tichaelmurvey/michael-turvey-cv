@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="mturvey.css">
     <title>Michael Turvey CV</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script src=app.js></script>
 </head>
 <body>
 <nav>
@@ -17,16 +19,16 @@
 </nav>
 <main>
     <h1>Michael Turvey</h1>
-    <h2>Curriculum Vitae</h2>
+    <h2><span id="resume" class="version active">Resume</span> | <span id="CV" class="version">Curriculum Vitae</span></h2>
     <section id="contact">
-        <h3>Contact information testestset</h3>
+        <h3>Contact information</h3>
         <p id="email"> <a href="mailto:Michaelturvey97@gmail.com">Michaelturvey97@gmail.com</a></p>
         <p id="mobile">0498655746</p>
     </section>
     <section id="career">
         <section class="role" id="current-role">
             <h3>Current role</h3>
-            <details>
+            <details open>
                 <summary class="role-title"><strong>Digital Cadet</strong> at the Australian Public Service Commission</summary>
                 <p>I work within the <a href="https://www.digitalprofession.gov.au/">Digital Profession</a> group. I work on service design, content writing, front-end development, and user research. My responsibilities have included maintenance and development of the <a href="https://members.profession.digital.gov.au/">members’ community platform</a>, writing advice for the <a href="https://www.stylemanual.gov.au/">style manual</a>, and running the <a href="https://members.profession.digital.gov.au/opportunities/opportunity-details?VolunteerOpportunityKey=9c0e6546-a151-4fba-b5e3-8a9c90ebf4ab&CommunityKey=21f41dd6-3d85-43e4-b8f4-80ab6cea5b97">skill accreditation pilot</a>.</p>
             </details>
@@ -83,15 +85,15 @@
     </section>
     <section id="references">
         <h3>References</h3>
-        <section id="reference">
+        <section class="reference">
             <p class="ref_name">Joshua Turk</p>
             <p class ="ref_relationship">Current supervisor</p>
-            <p>For contact details email me.</p>
+            <p>For contact details <a href="mailto:Michaelturvey97@gmail.com">email me</a>.</p>
         </section>
-        <section id="reference">
-            <p class="ref_name">Joshua Turk</p>
-            <p class ="ref_relationship">Current supervisor</p>
-            <p>For contact details email me.</p>
+        <section class="reference">
+            <p class="ref_name">Aimee Brodrick</p>
+            <p class ="ref_relationship">Current colleague</p>
+            <p>For contact details <a href="mailto:Michaelturvey97@gmail.com">email me</a>.</p>
         </section>
     </section>
     </main>

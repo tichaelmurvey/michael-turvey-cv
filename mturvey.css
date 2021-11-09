@@ -1,16 +1,90 @@
+
+/* =========================== PAGE STRUCTURE BASICS */
 body{
     display: flex;
-    font-family: Tahoma, sans-serif;
-}
-
-nav{
-    width: 15%;
-    margin-top: 5%;
-    margin-left: 2%;
 }
 
 main{
     width: 60%;
     border-left: 1px solid black;
     padding-left: 2%
+}
+
+summary{
+    margin-left: 3%;
+    margin-bottom: 15px;
+}
+p{
+    margin-left: 3%;
+}
+
+details p{
+    margin-left: 6%;
+}
+
+/* ==================================TYPOGRAPHY */
+
+body{
+    font-family: Tahoma, sans-serif;
+    line-height: 1.5;
+}
+
+nav{
+    width: 12%;
+    padding-right: 50px;
+    padding-top: 85px;
+    text-align: right;
+}
+
+/* ==========================NAVIGATION */
+nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+/* ===========================DETAILS AND SUMMARIES */
+summary{
+    cursor: pointer;
+}
+
+/* ========================= INTERACTIVE CV AND RESUME */
+.version{
+    cursor: pointer;
+}
+
+.active{
+    text-decoration: underline;
+}
+
+
+/* ==========================REFERENCES */
+
+#references{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#references h3{
+    width: 100%;
+}
+
+.reference{
+    margin-right: 20px;
+    width: 25%;
+}
+
+
+.ref_name{
+    font-weight: bold;
+}
+
+.reference p{
+    margin: 0 !important;
+    line-height: 2.1;
 }
