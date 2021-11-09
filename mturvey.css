@@ -22,6 +22,10 @@ details p{
     margin-left: 6%;
 }
 
+.year::before{
+    content: "| "
+}
+
 /* ==================================TYPOGRAPHY */
 
 body{
