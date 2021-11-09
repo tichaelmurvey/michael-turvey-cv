@@ -1,0 +1,16 @@
+body{
+    display: flex;
+    font-family: Tahoma, sans-serif;
+}
+
+nav{
+    width: 15%;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+
+main{
+    width: 60%;
+    border-left: 1px solid black;
+    padding-left: 2%
+}
